@@ -22,7 +22,7 @@ const updateTime = () => {
     hour12: false,
     timeZone: "Europe/Paris", // Antarctica/South_Pole Europe/Kyiv
   });
-  headerTextRef.textContent = `Французкое время: ${curTime}`;
+  headerTextRef.textContent = `Французкое вpемя: ${curTime}`;
 
   const curDay = curDate.getDay();
   const dayRef = lessonsRef[curDay - 1];
