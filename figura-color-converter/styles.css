@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("amethyst_tile.png");
+  }
+  
+  .color-selector {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  #colorPicker {
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+  }
+
+  #scaledRgbOutput{
+    width: 600px;
+    font-weight: bold;
+  }
+  
+  .border{
+    border: solid 2px;
+    border-color: black;
+    border-radius: 3px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  p{
+    border: solid 2px;
+    border-color: black;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+  }
